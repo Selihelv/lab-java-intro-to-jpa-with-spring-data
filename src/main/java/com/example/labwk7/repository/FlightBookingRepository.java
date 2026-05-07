@@ -12,5 +12,5 @@ public interface FlightBookingRepository extends JpaRepository<FlightBooking, Lo
 
     List<FlightBooking> findAllByCustomerId(Long customerId);
 
-    FlightBooking findByFlightId(int flightId);
+   List<FlightBooking> findByFlightId(Long flightId);
 }

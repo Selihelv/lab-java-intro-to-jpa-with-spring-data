@@ -27,7 +27,7 @@ public class FlightBookingService {
         return flightBookingRepository.findAllByCustomerId(customerId);
     }
 
-    public FlightBooking findBookingById (int flightId){
+    public FlightBooking findBookingById (Long flightId){
         return flightBookingRepository.findByFlightId(flightId);
     }
 

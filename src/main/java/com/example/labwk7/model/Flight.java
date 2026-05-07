@@ -25,13 +25,13 @@ public class Flight {
     private int totalNumberOfSeats;
 
     @Column(name = "mileage")
-    private Integer milegae;
+    private Integer mileage;
 
     public Flight(String flightNumber, String aircraft,
-                  int totalNumberOfSeats, Integer milegae) {
+                  int totalNumberOfSeats, Integer mileage) {
         this.flightNumber = flightNumber;
         this.aircraft = aircraft;
         this.totalNumberOfSeats = totalNumberOfSeats;
-        this.milegae = milegae;
+        this.mileage = mileage;
     }
 }

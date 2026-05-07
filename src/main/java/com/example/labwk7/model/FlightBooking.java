@@ -17,12 +17,12 @@ public class FlightBooking {
     private Long id;
 
     @Column(name = "customer_id")
-    private int customerId;
+    private Long customerId;
 
     @Column( name = "flight_id")
-    private int flightId;
+    private Long flightId;
 
-    public FlightBooking(int customerId, int flightId) {
+    public FlightBooking(Long customerId, Long flightId) {
         this.customerId = customerId;
         this.flightId = flightId;
     }
